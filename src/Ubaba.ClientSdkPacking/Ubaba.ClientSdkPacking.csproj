@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.0.1-beta1</Version>
+    <Nullable>enable</Nullable>
+    <LangVersion>8</LangVersion>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>ursa</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <RootNamespace>Ursa.ClientSdkPacking</RootNamespace>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.5.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="3.4.0" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="NSwag.CodeGeneration.CSharp" Version="13.2.2" />
+    <PackageReference Include="YamlDotNet" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ubaba.Abstractions\Ubaba.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

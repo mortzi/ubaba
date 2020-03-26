@@ -1,0 +1,9 @@
+namespace: DiscountClientSdk
+class_name: DiscountClient
+swagger_json_address: https://discount.indraproject.ir/swagger/api-v1/swagger.json
+nuget_source: https://nexus.indraproject.ir/repository/indra-dev-nuget-hosted/
+install_packages: []
+output_directory: ./gen-package
+package:
+  package_name: DiscountClientSdk
+  package_version: 0.0.1

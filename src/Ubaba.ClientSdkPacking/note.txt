@@ -1,0 +1,8 @@
+ "host": "petstore.swagger.io",
+    "basePath": "/v2",
+
+    options in swagger.json that create _basheUrl for Client and skips baseurl in constructor
+
+    I need to have two ways for this. two overload of constructors
+
+    different base urls for stage and deploy should be provided in swagger.json
